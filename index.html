@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul type="none">
+          <li><i class="fa-solid fa-icons"></i></li>
+          <li><h1>Nixify</h1></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><input hidden type="search" name="" id="search" /></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="container">
+        <div>
+          <div class="background"></div>
+          <div class="songCard">
+            <img src="./assets/asitwas.jpg" alt="" />
+          </div>
+        </div>
+        <div class="songList">
+          <div class="items">
+            <ul type="none">
+              <li>
+                <button><i class="fa-solid fa-play"></i></button><span class="song"></span>
+              </li>
+              <li>
+                <button ><i class="fa-solid fa-play"></i></button><span class="song"></span>
+              </li>
+              <li>
+                <button ><i class="fa-solid fa-play"></i></button><span class="song"></span>
+              </li>
+              <li>
+                <button ><i class="fa-solid fa-play"></i></button><span class="song"></span>
+              </li>
+              <li>
+                <button ><i class="fa-solid fa-play"></i></button><span class="song"></span>
+              </li>             
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div>
+          <img src="./assets/asitwas.jpg" height="90px" alt="" />
+        </div>
+        <div>
+          <div class="songName">
+            As it Was
+          </div>
+          <div class="icons">
+            <span id="repeat"><i class="fa-solid fa-1x fa-repeat"></i></span>
+            <span id="back"><i class="fa-solid fa-2x fa-backward-step"></i></span>
+            <span id="pnp"><i class="fa-solid fa-3x fa-circle-play"></i></span>
+            <span id="fwd"><i class="fa-solid fa-2x fa-forward-step"></i></span>
+            <span id="shuffle"><i class="fa-solid fa-1x fa-shuffle"></i></span>
+          </div>
+
+          <input type="range" name="" id="player" min="0" max="100" value="0" />
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
