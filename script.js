@@ -26,13 +26,18 @@ songList.forEach((e,ind)=> {
 const allPlay=()=>{
     pbtnList.forEach((e,ind)=>{
         e.classList.remove("fa-pause")
-        e.classList.remove("add")
         e.classList.add("fa-play")
+    })
+}
+const disc=()=>{
+    pbtnList.forEach((e)=>{
+        e.classList.remove("add")
     })
 }
 pbtnList.forEach((e,ind)=>{
     e.addEventListener("click",()=>{
         allPlay();
+        disc();
         e.classList.remove("fa-play")
         e.classList.add("fa-compact-disc")
         e.classList.add("add")
